@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girteka", "Girteka\Girteka.csproj", "{939EA078-726C-4FD9-A7F6-AC701E50D5C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Core", "Application.Core\Application.Core.csproj", "{31D213A9-31AD-4857-8BA4-312F1C74AD98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Infrastructure", "Application.Infrastructure\Application.Infrastructure.csproj", "{470FB069-EBD6-4DFA-A605-6DFA69CEC636}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernels", "SharedKernels\SharedKernels.csproj", "{76BB8727-1220-4DB7-A117-CE3414F256E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3084013-5BE8-4EBC-948E-824E87C79FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Girteka.Tests", "Girteka.Tests\Girteka.Tests.csproj", "{D61D0835-C372-4221-A45C-FF1D3B286185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{939EA078-726C-4FD9-A7F6-AC701E50D5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939EA078-726C-4FD9-A7F6-AC701E50D5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939EA078-726C-4FD9-A7F6-AC701E50D5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939EA078-726C-4FD9-A7F6-AC701E50D5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D213A9-31AD-4857-8BA4-312F1C74AD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D213A9-31AD-4857-8BA4-312F1C74AD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D213A9-31AD-4857-8BA4-312F1C74AD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D213A9-31AD-4857-8BA4-312F1C74AD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470FB069-EBD6-4DFA-A605-6DFA69CEC636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470FB069-EBD6-4DFA-A605-6DFA69CEC636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470FB069-EBD6-4DFA-A605-6DFA69CEC636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470FB069-EBD6-4DFA-A605-6DFA69CEC636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BB8727-1220-4DB7-A117-CE3414F256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BB8727-1220-4DB7-A117-CE3414F256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BB8727-1220-4DB7-A117-CE3414F256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BB8727-1220-4DB7-A117-CE3414F256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61D0835-C372-4221-A45C-FF1D3B286185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61D0835-C372-4221-A45C-FF1D3B286185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61D0835-C372-4221-A45C-FF1D3B286185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61D0835-C372-4221-A45C-FF1D3B286185}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{939EA078-726C-4FD9-A7F6-AC701E50D5C5} = {C3084013-5BE8-4EBC-948E-824E87C79FA5}
+		{31D213A9-31AD-4857-8BA4-312F1C74AD98} = {C3084013-5BE8-4EBC-948E-824E87C79FA5}
+		{470FB069-EBD6-4DFA-A605-6DFA69CEC636} = {C3084013-5BE8-4EBC-948E-824E87C79FA5}
+		{76BB8727-1220-4DB7-A117-CE3414F256E3} = {C3084013-5BE8-4EBC-948E-824E87C79FA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8A985F-2E83-416C-A779-3ADAE4429FE7}
+	EndGlobalSection
+EndGlobal
